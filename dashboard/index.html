@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vireo Audio Support Analytics — Executive Decision Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Load Authoritative Data File (Zero-CORS offline execution) -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+  <!-- Top Executive Header -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand-container">
+        <div class="logo-badge">VIREO</div>
+        <div class="brand-text">
+          <h1>Support Performance & Governance Analytics</h1>
+          <p>Executive Decision Support Dashboard | Prepared for Priya Raman (Director of Customer Support)</p>
+        </div>
+      </div>
+      <div class="header-status">
+        <span class="pill-badge pill-deterministic">Deterministic Engine Verified</span>
+        <span class="pill-badge pill-pass">Quality Gate: PASS WITH LIMITATIONS</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="app-nav">
+    <div class="nav-inner">
+      <button class="nav-tab active" data-view="view-exec">1. Executive Summary</button>
+      <button class="nav-tab" data-view="view-raw">2. Raw Contractual View</button>
+      <button class="nav-tab" data-view="view-shortlist">3. Fair Recommended Shortlist</button>
+      <button class="nav-tab" data-view="view-inspector">4. Agent Inspector</button>
+      <button class="nav-tab" data-view="view-whynot">5. Why Not Raw Bottom 10?</button>
+      <button class="nav-tab" data-view="view-impact">6. Business Impact & Scenarios</button>
+      <button class="nav-tab" data-view="view-ai">7. AI Diagnostics</button>
+      <button class="nav-tab" data-view="view-limitations">8. Data Quality & Limitations</button>
+    </div>
+  </nav>
+
+  <!-- Main View Container -->
+  <main class="main-container">
+
+    <!-- ========================================================
+         VIEW 1 — EXECUTIVE SUMMARY
+         ======================================================== -->
+    <section id="view-exec" class="view-section active">
+      <div class="section-header">
+        <h2>Executive Summary & Strategic Overview</h2>
+        <p>Evidence-backed decision support for Q3 Support Agent Training Allocation & Cost Optimization.</p>
+      </div>
+
+      <!-- Core Context Alert -->
+      <div class="alert-box alert-info">
+        <span class="alert-icon">ℹ</span>
+        <div>
+          <strong>Operational Insight:</strong> The raw bottom-10 ranking requested by leadership is severely distorted by operational case mix—most notably Tier 2 warranty/escalation queues (100% defective hardware) and Tier 1 hardware triage rotas absorbing the Pulse 2 batch defect flood. We provide both Priya's requested raw contractual view and the fair, peer-normalized recommended shortlist.
+        </div>
+      </div>
+
+      <!-- High-Level KPI Summary Grid -->
+      <div class="grid-cols-4">
+        <div class="kpi-card kpi-highlight-blue">
+          <div class="kpi-title">Primary Business Target</div>
+          <div class="kpi-value" style="font-size: 22px;">SLA Breach Avoidance</div>
+          <div class="kpi-subtext">Directly retrainable via first-response queue discipline</div>
+        </div>
+        <div class="kpi-card kpi-highlight-amber">
+          <div class="kpi-title">Historical Baseline Breaches</div>
+          <div class="kpi-value" id="exec-baseline-breaches">1,064 Breaches</div>
+          <div class="kpi-subtext">Over 18-month audit period (709.3 breaches / yr)</div>
+        </div>
+        <div class="kpi-card kpi-highlight-indigo">
+          <div class="kpi-title">Historical SLA Penalty Exposure</div>
+          <div class="kpi-value" id="exec-baseline-cost">₹3,72,400</div>
+          <div class="kpi-subtext">Contractual store-credit liability (₹350 / breach)</div>
+        </div>
+        <div class="kpi-card kpi-highlight-green">
+          <div class="kpi-title">Process-Control Exposure</div>
+          <div class="kpi-value" id="exec-dd-exposure">₹5,90,934</div>
+          <div class="kpi-subtext" id="exec-dd-orders">131 double-dipped orders (ERP/CRM gap)</div>
+        </div>
+      </div>
+
+      <!-- SLA Breach Reduction Scenarios -->
+      <div class="section-header" style="margin-top: 32px;">
+        <h3>Targeted Training Intervention — Modeled SLA Savings</h3>
+        <p style="font-size: 13px; color: var(--danger); font-weight: 600;">MODELED SCENARIOS — NOT GUARANTEED SAVINGS</p>
+      </div>
+
+      <div class="grid-cols-3">
+        <div class="scenario-card conservative">
+          <span class="scenario-badge">Conservative (25% Reduction)</span>
+          <div class="kpi-value" style="color: var(--primary);" id="exec-sc-25-val">₹62,067 / yr</div>
+          <div class="kpi-subtext" id="exec-sc-25-breaches">177.3 breaches avoided / yr</div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 10px;">Focuses on core frontline chat/email SLA triage. Baseline 18m savings: ₹93,100.</p>
+        </div>
+
+        <div class="scenario-card recommended">
+          <span class="scenario-badge">Recommended Target (50% Reduction)</span>
+          <div class="kpi-value" style="color: var(--success);" id="exec-sc-50-val">₹1,24,133 / yr</div>
+          <div class="kpi-subtext" id="exec-sc-50-breaches">354.7 breaches avoided / yr</div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 10px;">Achieved via Track 1 SLA Responsiveness training across top 7 high-breach agents. Baseline 18m savings: ₹1,86,200.</p>
+        </div>
+
+        <div class="scenario-card aggressive">
+          <span class="scenario-badge">Aggressive Target (75% Reduction)</span>
+          <div class="kpi-value" style="color: var(--accent-indigo);" id="exec-sc-75-val">₹1,86,200 / yr</div>
+          <div class="kpi-subtext" id="exec-sc-75-breaches">532.0 breaches avoided / yr</div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 10px;">Requires organization-wide SLA adherence and automated queue re-routing. Baseline 18m savings: ₹2,79,300.</p>
+        </div>
+      </div>
+
+      <!-- Process Control Opportunity (Double Dipping) Notice -->
+      <div class="alert-box alert-purple" style="margin-top: 12px;">
+        <span class="alert-icon">🛡</span>
+        <div>
+          <strong>HISTORICAL PROCESS-CONTROL EXPOSURE (NOT TRAINING ROI):</strong>
+          Our audit discovered 131 orders where customers received both a refund (₹355,434) and a replacement unit (₹235,500 policy cost), totaling <strong>₹5,90,934</strong> in historical exposure. This financial leakage is driven by a lack of cross-ticket database validation in the CRM/ERP system. It represents an immediate IT system control opportunity, <em>not</em> an agent-training deliverable.
+        </div>
+      </div>
+
+      <!-- Recommended Action Box -->
+      <div class="kpi-card" style="margin-top: 20px; background-color: #f8fafc; border-left: 4px solid var(--primary);">
+        <h3 style="font-size: 16px; margin-bottom: 8px;">Recommended Management Action for Q3</h3>
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">
+          Rather than penalizing agents assigned to tough queues, prioritize the <strong>10 evidence-backed training candidates</strong> shortlisted through Empirical Bayes shrinkage and peer normalization:
+        </p>
+        <ul style="font-size: 13px; color: var(--text-muted); padding-left: 20px; line-height: 1.8;">
+          <li><strong>Track 1 (7 Agents):</strong> SLA Responsiveness & Queue Discipline (A3003, A3002, A3016, A3021, A3030, A3035, A3028) — directly targets ₹1.24L/yr in SLA penalty avoidance.</li>
+          <li><strong>Track 2 (2 Agents):</strong> Queue-Normalized Communication (A3020, A3029) — addresses true communication deficits within peer groups.</li>
+          <li><strong>Track 3 (1 Agent):</strong> Advanced RMA Diagnostics (A3041) — dedicated coaching for Tier 2 technical turnaround.</li>
+        </ul>
+        <div style="margin-top: 16px;">
+          <button class="btn btn-primary" onclick="switchView('view-shortlist')">View Full Training Shortlist &rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 2 — PRIYA'S REQUESTED RAW VIEW
+         ======================================================== -->
+    <section id="view-raw" class="view-section">
+      <div class="section-header">
+        <h2>Raw Contractual Ranking</h2>
+        <p>Direct unadjusted ranking by CSAT and handle time as originally requested by leadership.</p>
+      </div>
+
+      <div class="alert-box alert-warning">
+        <span class="alert-icon">⚠️</span>
+        <div>
+          <strong>Transparency Notice:</strong> Raw ranking is shown for compliance with leadership request. It is <strong>NOT</strong> the recommended training decision because case mix differs substantially between operational teams. Notice that Tier 2 agents and Hardware Triage agents dominate the unadjusted bottom lists due to product defects and bench turnaround times.
+        </div>
+      </div>
+
+      <!-- Table A: Lowest Raw Mean CSAT -->
+      <div class="table-card">
+        <div class="table-header-bar">
+          <h3>A. Bottom 10 by Raw Mean CSAT (Unadjusted)</h3>
+          <span style="font-size: 12px; color: var(--text-subtle);">Click any agent row to inspect full profile</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-raw-csat">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Agent</th>
+                <th>Agent ID</th>
+                <th>Team</th>
+                <th>Tier</th>
+                <th>Raw Mean CSAT</th>
+                <th>Audited Handle Time (Median)</th>
+                <th>SLA Breach Rate</th>
+                <th>Queue Bias Context</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Table B: Highest Median Handle Time -->
+      <div class="table-card">
+        <div class="table-header-bar">
+          <h3>B. Highest 10 by Audited Median Handle Time (Unadjusted)</h3>
+          <span style="font-size: 12px; color: var(--text-subtle);">Click any agent row to inspect full profile</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-raw-ht">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Agent</th>
+                <th>Agent ID</th>
+                <th>Team</th>
+                <th>Tier</th>
+                <th>Raw Mean CSAT</th>
+                <th>Audited Handle Time (Median)</th>
+                <th>SLA Breach Rate</th>
+                <th>Queue Bias Context</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 3 — FAIR RECOMMENDED SHORTLIST
+         ======================================================== -->
+    <section id="view-shortlist" class="view-section">
+      <div class="section-header">
+        <h2>Fair Recommended Training Shortlist (Single Source of Truth)</h2>
+        <p>Exactly 10 evidence-backed candidates grouped into diagnostic intervention tracks.</p>
+      </div>
+
+      <div class="alert-box alert-info">
+        <span class="alert-icon">✓</span>
+        <div>
+          <strong>Analytical Foundation:</strong> Candidates selected using Empirical Bayes shrinkage ($M=25$), peer group normalization across 6 operational cohorts, and demonstrable business impact. Unjustified punitive shortlisting of hardware triage agents has been eliminated.
+        </div>
+      </div>
+
+      <div class="table-card">
+        <div class="table-header-bar">
+          <h3>Q3 Certified Training Candidates (10 Agents)</h3>
+          <span style="font-size: 12px; color: var(--text-subtle);">Grouped across 3 distinct operational modules</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-training-candidates">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Agent</th>
+                <th>Agent ID</th>
+                <th>Team</th>
+                <th>Training Track</th>
+                <th>Primary Evidence & Value</th>
+                <th>Peer Benchmark</th>
+                <th>Audit Rationale</th>
+                <th>Recommended Module</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 4 — AGENT INSPECTOR
+         ======================================================== -->
+    <section id="view-inspector" class="view-section">
+      <div class="section-header">
+        <h2>Agent Detail Inspector</h2>
+        <p>Examine comprehensive raw vs. audited metrics, peer benchmarks, and compliance records for all 44 agents.</p>
+      </div>
+
+      <div class="inspector-card">
+        <div class="inspector-header">
+          <div class="inspector-agent-meta">
+            <h3 id="insp-agent-title">Select an Agent</h3>
+            <p id="insp-agent-meta">Metadata</p>
+          </div>
+          <div>
+            <label for="inspector-agent-select" style="font-size: 12px; font-weight: 600; color: var(--text-muted); margin-right: 8px;">Select Agent:</label>
+            <select id="inspector-agent-select" class="table-filter-input" style="font-weight: 600;"></select>
+          </div>
+        </div>
+
+        <!-- Legacy Offset Warning Box -->
+        <div id="insp-legacy-note" class="alert-box alert-warning" style="display: none;"></div>
+
+        <!-- Metric Grid -->
+        <div class="inspector-metric-grid">
+          <!-- Column 1: Volume & CSAT -->
+          <div class="inspector-metric-box">
+            <div class="label">Total Ticket Volume</div>
+            <div class="value" id="insp-tickets">—</div>
+            <div class="detail">18-month resolved & closed attendance</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Raw Mean CSAT</div>
+            <div class="value" id="insp-csat-raw">—</div>
+            <div class="detail" id="insp-csat-count">—</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Empirical Bayes Shrunk CSAT</div>
+            <div class="value" id="insp-csat-shrunk" style="color: var(--primary);">—</div>
+            <div class="detail">Peer Baseline: <span id="insp-csat-peer">—</span></div>
+          </div>
+
+          <!-- Column 2: Handle Times -->
+          <div class="inspector-metric-box">
+            <div class="label">Raw Handle Time (Mean)</div>
+            <div class="value" id="insp-ht-raw">—</div>
+            <div class="detail">Uncorrected legacy timestamps</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Audited Handle Time (Mean)</div>
+            <div class="value" id="insp-ht-audited" style="color: var(--primary);">—</div>
+            <div class="detail">UTC-to-IST offset corrected (+5:30)</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Audited Handle Time (Median)</div>
+            <div class="value" id="insp-ht-median">—</div>
+            <div class="detail">Robust operational metric</div>
+          </div>
+
+          <!-- Column 3: SLA & Governance -->
+          <div class="inspector-metric-box">
+            <div class="label">SLA Breach Count</div>
+            <div class="value" id="insp-sla-breaches" style="color: var(--danger);">—</div>
+            <div class="detail">Breach Rate: <span id="insp-sla-rate">—</span></div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">SLA Store-Credit Liability</div>
+            <div class="value" id="insp-sla-penalty">—</div>
+            <div class="detail">Contractual exposure (₹350/breach)</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Governance Exceptions</div>
+            <div class="value" id="insp-double-dipping">—</div>
+            <div class="detail">Double-dipped tickets touched</div>
+          </div>
+
+          <!-- Column 4: Operational Touchpoints -->
+          <div class="inspector-metric-box">
+            <div class="label">Internal Transfers</div>
+            <div class="value" id="insp-transfers">—</div>
+            <div class="detail">Transfers originated</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Replacements Issued</div>
+            <div class="value" id="insp-replacements">—</div>
+            <div class="detail">Warranty replacement units</div>
+          </div>
+          <div class="inspector-metric-box">
+            <div class="label">Refunds Authorized</div>
+            <div class="value" id="insp-refunds">—</div>
+            <div class="detail">Total customer refunds</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 5 — WHY NOT THE RAW BOTTOM 10?
+         ======================================================== -->
+    <section id="view-whynot" class="view-section">
+      <div class="section-header">
+        <h2>Why Not the Raw Bottom 10?</h2>
+        <p>A rigorous explanation of structural queue bias, hardware triage rotas, and the Pulse 2 defect surge.</p>
+      </div>
+
+      <div class="alert-box alert-warning">
+        <span class="alert-icon">⚖</span>
+        <div>
+          <strong>Analytical Protection:</strong>
+          Four frontline agents—<strong>A3004 (Siddharth Kapoor), A3005 (Zaid Khanna), A3006 (Kavya Pandey), and A3007 (Siddharth Trivedi)</strong>—appear in the raw contractual bottom 10 for CSAT. However, <strong>NONE</strong> of these agents are recommended for training in our final shortlist.
+        </div>
+      </div>
+
+      <div class="table-card">
+        <div class="table-header-bar">
+          <h3>The Hardware Triage Rota Cohort ("Kavya's Four")</h3>
+          <span style="font-size: 12px; color: var(--text-subtle);">Demonstrating queue-driven score suppression</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-kavya-explanation">
+            <thead>
+              <tr>
+                <th>Agent</th>
+                <th>Agent ID</th>
+                <th>Team</th>
+                <th>Raw Mean CSAT</th>
+                <th>Shrunk CSAT</th>
+                <th>SLA Breach Rate</th>
+                <th>Audited Median HT</th>
+                <th>Root-Cause Operational Explanation</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid-cols-2">
+        <div class="kpi-card">
+          <h4 style="font-size: 14px; margin-bottom: 8px;">1. The Pulse 2 Battery Defect Flood</h4>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            Between November 2025 and February 2026, manufacturing lots <code>PL2-2508-2</code> through <code>PL2-2511-3</code> suffered from a hardware failure where left earbuds failed to charge (stuck at 0%). These 4 frontline agents handled more than <strong>double the company average of dead-battery claims</strong>, facing deeply frustrated customers whose ratings reflected product anger rather than agent demeanor.
+          </p>
+        </div>
+        <div class="kpi-card">
+          <h4 style="font-size: 14px; margin-bottom: 8px;">2. Tier 2 Escalations Case Mix</h4>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            Tier 2 agents (such as A3039, A3040, A3041) handle 100% defective hardware, service center RMA bench turnarounds, and courier transit loss investigations. Comparing their 75–120 hour handle times against frontline chat agents handling 15-minute password resets is statistically invalid and contractually misleading.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 6 — BUSINESS IMPACT & SENSITIVITY
+         ======================================================== -->
+    <section id="view-impact" class="view-section">
+      <div class="section-header">
+        <h2>Business Impact & Cost Sensitivity Analysis</h2>
+        <p>Interactive financial modeling separating operational training ROI from system process controls.</p>
+      </div>
+
+      <div class="grid-cols-2">
+        <!-- Section A: SLA Breach Savings -->
+        <div class="kpi-card" style="border-top: 4px solid var(--primary);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+            <h3 style="font-size: 16px;">A. Training / SLA Breach Savings Model</h3>
+            <span class="badge-tag" style="background-color: var(--primary-light); color: var(--primary-dark);">Retrainable Outcome</span>
+          </div>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+            Targeted training on Track 1 (7 agents) improves first-response triage to eliminate the ₹350 policy store-credit breach penalty.
+          </p>
+
+          <div style="margin-bottom: 16px;">
+            <label style="font-size: 12px; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 6px;">Select Breach Reduction Target:</label>
+            <div class="btn-group">
+              <button class="btn-scenario-select" data-pct="25%">25% Conservative</button>
+              <button class="btn-scenario-select active" data-pct="50%">50% Recommended</button>
+              <button class="btn-scenario-select" data-pct="75%">75% Aggressive</button>
+            </div>
+          </div>
+
+          <div style="background-color: var(--bg-subtle); padding: 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); margin-bottom: 12px;">
+            <div style="font-size: 12px; text-transform: uppercase; color: var(--text-subtle); font-weight: 600;">Annualized Modeled Savings (<span id="biz-sc-pct">50%</span>)</div>
+            <div style="font-size: 26px; font-weight: 800; color: var(--success);" id="biz-sc-savings-annual">₹1,24,133 / year</div>
+            <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" id="biz-sc-savings-18m">₹1,86,200 (over 18m baseline)</div>
+            <div style="font-size: 12px; font-weight: 600; color: var(--primary); margin-top: 4px;" id="biz-sc-breaches-avoided">354.7 breaches avoided / year</div>
+          </div>
+          <small style="color: var(--danger); font-size: 11px; font-weight: 600;">*Modeled scenario sensitivity, not guaranteed contract terms.</small>
+        </div>
+
+        <!-- Section B: Process Control Exposure -->
+        <div class="kpi-card" style="border-top: 4px solid var(--accent-indigo);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+            <h3 style="font-size: 16px;">B. CRM / ERP Process-Control Opportunity</h3>
+            <span class="badge-tag" style="background-color: var(--accent-indigo-light); color: var(--accent-indigo);">IT System Control</span>
+          </div>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+            Confirmed financial leakage where <span id="biz-dd-orders">131</span> orders received both a refund and replacement due to absence of cross-ticket database validation rules.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+            <div style="background-color: var(--bg-subtle); padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <div style="font-size: 11px; text-transform: uppercase; color: var(--text-subtle);">Cash Refunds Issued</div>
+              <div style="font-size: 18px; font-weight: 700;" id="biz-dd-refunds">₹3,55,434</div>
+            </div>
+            <div style="background-color: var(--bg-subtle); padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+              <div style="font-size: 11px; text-transform: uppercase; color: var(--text-subtle);">Replacement Policy Cost</div>
+              <div style="font-size: 18px; font-weight: 700;" id="biz-dd-replacements">₹2,35,500</div>
+              <div style="font-size: 10px; color: var(--text-subtle);">Unit cost + ₹340 logistics</div>
+            </div>
+          </div>
+
+          <div style="background-color: #f5f3ff; padding: 14px; border-radius: var(--radius-sm); border: 1px solid #ddd6fe;">
+            <div style="font-size: 11px; text-transform: uppercase; color: #5b21b6; font-weight: 700;">Combined Historical Exposure</div>
+            <div style="font-size: 22px; font-weight: 800; color: #5b21b6;" id="biz-dd-combined">₹5,90,934</div>
+            <div style="font-size: 12px; color: var(--text-muted);" id="biz-dd-annualized">₹3,93,956 / year</div>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 12px;">
+            <strong>Governance Note:</strong> This is a CRM/ERP validation-control opportunity, <em>not</em> an agent-training ROI estimate.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 7 — AI DIAGNOSTICS
+         ======================================================== -->
+    <section id="view-ai" class="view-section">
+      <div class="section-header">
+        <h2>AI Qualitative Diagnostics (Auxiliary Layer)</h2>
+        <p>Qualitative diagnostic triage of exactly 100 stratified tickets to identify underlying friction drivers.</p>
+      </div>
+
+      <!-- Critical Guardrail Alert -->
+      <div class="alert-box alert-danger">
+        <span class="alert-icon">🛑</span>
+        <div>
+          <strong>Operational Safety Guardrail:</strong>
+          AI diagnostics operate strictly as an auxiliary qualitative diagnostic tool across 100 tickets. <strong>The AI layer does NOT determine agent rankings, candidate shortlist selection, CSAT, handle time, or financial calculations.</strong> Actual project cost incurred: <strong>₹0.00</strong> (executed via zero-cost offline heuristic).
+        </div>
+      </div>
+
+      <!-- Agreement Benchmarks -->
+      <div class="section-header" style="margin-top: 24px;">
+        <h3>Human Expert Gold Standard Benchmark (20 Stratified Tickets)</h3>
+        <p>30% exact agreement across all evaluated dimensions simultaneously (6/20 tickets matched across all 5 fields).</p>
+      </div>
+
+      <div class="grid-cols-3">
+        <div class="kpi-card">
+          <div class="kpi-title">Policy Signal Agreement</div>
+          <div class="kpi-value" style="color: var(--success);">100.0%</div>
+          <div class="kpi-subtext">20 / 20 tickets matched</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Agent Handling Signal Agreement</div>
+          <div class="kpi-value" style="color: var(--primary);">80.0%</div>
+          <div class="kpi-subtext">16 / 20 tickets matched</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Resolution Quality Agreement</div>
+          <div class="kpi-value" style="color: var(--warning);">65.0%</div>
+          <div class="kpi-subtext">13 / 20 tickets matched</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Evidence Quality Agreement</div>
+          <div class="kpi-value" style="color: var(--warning);">65.0%</div>
+          <div class="kpi-subtext">13 / 20 tickets matched</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Primary Root Cause Agreement</div>
+          <div class="kpi-value" style="color: var(--danger);">45.0%</div>
+          <div class="kpi-subtext">9 / 20 tickets matched (bench delays vs defects)</div>
+        </div>
+        <div class="kpi-card" style="border: 2px solid var(--border-strong);">
+          <div class="kpi-title">Exact All-Field Concordance</div>
+          <div class="kpi-value">30.0%</div>
+          <div class="kpi-subtext">6 / 20 matched across all 5 dimensions simultaneously</div>
+        </div>
+      </div>
+
+      <!-- Hallucination Review Table -->
+      <div class="table-card" style="margin-top: 24px;">
+        <div class="table-header-bar">
+          <h3>Sample AI Diagnostic Hallucination & Correction Register</h3>
+          <span style="font-size: 12px; color: var(--text-subtle);">From outputs/ai_hallucination_review.csv</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table" id="table-ai-hallucinations">
+            <thead>
+              <tr>
+                <th>Ticket ID</th>
+                <th>Severity</th>
+                <th>Issue Type</th>
+                <th>Unsupported AI Claim</th>
+                <th>Ground Truth Supporting Evidence</th>
+                <th>Supervisory Correction</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 8 — DATA QUALITY / LIMITATIONS
+         ======================================================== -->
+    <section id="view-limitations" class="view-section">
+      <div class="section-header">
+        <h2>Data Quality Register & Operational Limitations</h2>
+        <p>Transparent documentation of the 10 known limitations, mitigations, and residual risks.</p>
+      </div>
+
+      <div class="alert-box alert-info">
+        <span class="alert-icon">ℹ</span>
+        <div>
+          Click any limitation item below to expand the engineering impact analysis, applied pipeline mitigation, and operational guidance.
+        </div>
+      </div>
+
+      <!-- Accordion List -->
+      <div class="accordion-item open">
+        <div class="accordion-header">
+          <span>1. Legacy Timestamp Reconstruction (+5:30 UTC/IST Offset)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> 2,309 legacy tickets migrated from Freshdesk prior to the 14 September 2025 cutover had <code>resolved_at &lt; created_at</code> due to an uncoordinated platform migration where resolution timestamps were stored in UTC while creation timestamps were in IST (+5:30).<br>
+          <strong>Mitigation:</strong> Deterministic 330-minute (+5.5 hour) adjustment in <code>src/metrics_engine.py</code> eliminates 100% of negative durations.<br>
+          <strong>Remaining Risk:</strong> Microsecond resolution times are mapped to nearest minute intervals.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>2. Voluntary CSAT Response Bias (44.22% Response Rate)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> 5,196 out of 11,750 tickets (44.22%) contain CSAT feedback. Voluntary feedback is bimodally polarized.<br>
+          <strong>Mitigation:</strong> Empirical Bayes shrinkage ($M=25$) shrinks low-sample noise toward operational peer group baselines.<br>
+          <strong>Remaining Risk:</strong> Sentiment of the 55.78% non-respondents remains unobservable.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>3. Premature CSAT on Open / Pending Tickets (249 Tickets)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> Exactly 249 tickets have recorded CSAT ratings despite having ticket status set to open or pending.<br>
+          <strong>Mitigation:</strong> Captured genuine customer feedback retained in metrics per business practice, but flagged in tables.<br>
+          <strong>Remaining Risk:</strong> Mid-journey dissatisfaction may understate ultimate resolution quality.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>4. Missing Order ID Linkage (4,107 Tickets / 34.95%)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> 4,107 tickets lack an <code>order_id</code> (general pre-sales, compatibility questions, unverified warranty queries).<br>
+          <strong>Mitigation:</strong> Order-dependent analyses (double-dipping, replacement costs) are strictly isolated to validated order records.<br>
+          <strong>Remaining Risk:</strong> Cross-channel warranty leakage on unlinked tickets cannot be tracked.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>5. Agent Name Collision (Kavya Pandey — A3006 & A3029)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> Two distinct agents share the exact name "Kavya Pandey" (A3006 in Chat Frontline vs A3029 in Logistics).<br>
+          <strong>Mitigation:</strong> Enforced strict primary-key integrity across the entire codebase (`agent_id` is the immutable identifier).<br>
+          <strong>Remaining Risk:</strong> Zero risk in data/software; operational risk remains if supervisors conduct offline verbal coaching without IDs.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>6. Voice IVR Speech-to-Text Transcription Artifacts</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> Voice channel interactions contain automated speech-to-text transcripts with phonetic errors and missing speaker tags.<br>
+          <strong>Mitigation:</strong> Quantitative engine relies strictly on structured operational metadata rather than unstructured voice transcripts.<br>
+          <strong>Remaining Risk:</strong> Qualitative AI triage of voice tickets carries wider error margins than text-native tickets.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>7. Category "Other" Miscategorization (1,732 Tickets / 14.74%)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> 1,732 tickets are categorized under generic "Other", obscuring underlying hardware defect and courier delay topics.<br>
+          <strong>Mitigation:</strong> Stratified 30 "Other" tickets into the AI audit sample (Stratum 4) to surface latent operational patterns.<br>
+          <strong>Remaining Risk:</strong> Full re-categorization of historical tickets requires full-scale NLP processing beyond project scope.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>8. Transfer-Field Migration Discrepancy</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> Multi-tier handoffs overwrote initial queue attributes during legacy migration.<br>
+          <strong>Mitigation:</strong> Tier 2 Escalations agents are evaluated strictly against Tier 2 peers handling multi-day warranty escalations.<br>
+          <strong>Remaining Risk:</strong> Precise first-contact resolution (FCR) cannot be computed with 100% certainty for multi-touch tickets.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>9. Queue / Case-Mix Selection Effects</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> Inherent ticket difficulty varies dramatically across support queues (100% defective units in Tier 2 vs quick chat navigation).<br>
+          <strong>Mitigation:</strong> Established 6 operational peer groups; compared agents strictly within their peer cohort.<br>
+          <strong>Remaining Risk:</strong> Minor intra-peer group variance (shift timing differences) remains unadjusted.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>10. AI Qualitative Uncertainty (30% Exact All-Field Concordance)</span>
+          <span>&#9662;</span>
+        </div>
+        <div class="accordion-content">
+          <strong>Issue:</strong> AI classification of unstructured text carries probabilistic uncertainty due to terse agent notes (`cx ok -TF`).<br>
+          <strong>Mitigation:</strong> Bounded strictly as an auxiliary diagnostic tool; prohibited from modifying performance metrics, rankings, or shortlists.<br>
+          <strong>Remaining Risk:</strong> Supervisors must treat AI tags as decision-support suggestions rather than definitive compliance verdicts.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div style="max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+      <div>Vireo Audio Support Performance Analytics &copy; 2026. Internal Executive Decision Tool.</div>
+      <div>Single Source of Truth: Deterministic Metrics Engine (v1.0) | Zero-Cost Offline Architecture</div>
+    </div>
+  </footer>
+
+</body>
+</html>

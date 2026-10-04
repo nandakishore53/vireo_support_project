@@ -1,0 +1,13 @@
+{
+  "provider": "offline_heuristic",
+  "model": "deterministic_v1",
+  "is_live_api": false,
+  "number_of_tickets": 100,
+  "successful_calls": 100,
+  "failed_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "estimated_cost": 0.0,
+  "currency": "INR",
+  "sampling_timestamp": "2026-10-04T23:50:51.218576"
+}

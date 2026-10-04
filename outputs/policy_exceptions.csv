@@ -1,0 +1,344 @@
+order_id,customer_id,ticket_id,agent_id,agent_name,team,tier,refund_amount,replacement_flag,exception_type,evidence
+VR880295,C108463,TK-245886,A3031,Zoya Menon,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR880295,C108463,TK-246034,A3027,Harpreet Goyal,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 430)
+VR880295,C108463,TK-246392,A3035,Nisha Rao,Billing,1,57.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 57.0 (RETURN-QC-OK)
+VR880673,C109361,TK-248397,A3027,Harpreet Goyal,Logistics,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (LOST-TRANSIT)
+VR880673,C109361,TK-248772,A3024,Suresh Sethi,Voice Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR881066,C106055,TK-251280,A3035,Nisha Rao,Billing,1,420.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 420.0 (RETURN-QC-OK)
+VR881066,C106055,TK-251420,A3016,Om Khanna,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR881066,C106055,TK-253876,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR881423,C103388,TK-247359,A3033,Thomas Reddy,Billing,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (DUP-PAYMENT)
+VR881423,C103388,TK-249090,A3016,Om Khanna,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR881423,C103388,TK-249962,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR881451,C105602,TK-247752,A3030,Geeta Iyer,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR881451,C105602,TK-248124,A3038,Varun Reddy,Returns Desk,1,525.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 525.0 (DUP-PAYMENT)
+VR881451,C105602,TK-248575,A3021,Geeta Sen,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR881710,C106956,TK-245469,A3010,Aarav Pereira,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR881710,C106956,TK-245789,A3004,Siddharth Kapoor,Chat Frontline,1,110.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 110.0 (DUP-PAYMENT)
+VR881710,C106956,TK-245833,A3028,Vivaan Pandey,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR881710,C106956,TK-247185,A3006,Kavya Pandey,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 880)
+VR881710,C106956,TK-250035,A3014,Bhavna Joshi,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR882278,C102632,TK-243462,A3030,Geeta Iyer,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR882278,C102632,TK-243539,A3020,Riya Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR882278,C102632,TK-244022,A3037,Mohammed Desai,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR882487,C109291,TK-248285,A3034,Meera Pereira,Billing,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (PRICE-ADJ)
+VR882487,C109291,TK-249052,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR882538,C102939,TK-247111,A3017,Aadhya Rao,Email Frontline,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (LOST-TRANSIT)
+VR882538,C102939,TK-247846,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR882733,C109150,TK-248103,A3030,Geeta Iyer,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR882733,C109150,TK-248207,A3033,Thomas Reddy,Billing,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (DUP-PAYMENT)
+VR882733,C109150,TK-251044,A3004,Siddharth Kapoor,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR882810,C101204,TK-249424,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1460)
+VR882810,C101204,TK-250888,A3035,Nisha Rao,Billing,1,2374.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2374.0 (RETURN-QC-OK)
+VR882875,C105819,TK-246308,A3038,Varun Reddy,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DOA-REPL)
+VR882875,C105819,TK-248150,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR883288,C101503,TK-251275,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR883288,C101503,TK-251320,A3032,Kunal Jain,Billing,1,665.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 665.0 (DUP-PAYMENT)
+VR883288,C101503,TK-251480,A3020,Riya Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR883324,C106504,TK-246377,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR883324,C106504,TK-246536,A3006,Kavya Pandey,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR883324,C106504,TK-246562,A3030,Geeta Iyer,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR883324,C106504,TK-246803,A3037,Mohammed Desai,Returns Desk,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (RETURN-QC-OK)
+VR883688,C107237,TK-250205,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR883688,C107237,TK-253280,A3021,Geeta Sen,Email Frontline,1,3149.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820); Refund raised Rs 3149.0 (WTY-BUYBACK)
+VR883927,C107991,TK-249545,A3036,Divya Tiwari,Returns Desk,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (RETURN-QC-OK)
+VR883927,C107991,TK-249674,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR883927,C107991,TK-249815,A3019,Sai Joshi,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR883927,C107991,TK-250483,A3001,Reyansh Bhatt,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR884305,C101566,TK-246531,A3035,Nisha Rao,Billing,1,6499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6499.0 (DUP-PAYMENT)
+VR884305,C101566,TK-253063,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2790)
+VR884864,C105266,TK-242230,A3005,Zaid Khanna,Chat Frontline,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (DUP-PAYMENT)
+VR884864,C105266,TK-242489,A3014,Bhavna Joshi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1460)
+VR884890,C107036,TK-246652,A3009,Vihaan Menon,Chat Frontline,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (CANCEL)
+VR884890,C107036,TK-248087,A3018,Kunal Pillai,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR884890,C107036,TK-251865,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR884900,C108185,TK-249543,A3031,Zoya Menon,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR884900,C108185,TK-250165,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR884900,C108185,TK-250632,A3037,Mohammed Desai,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR885085,C104559,TK-253941,A3024,Suresh Sethi,Voice Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR885085,C104559,TK-254008,A3033,Thomas Reddy,Billing,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (DUP-PAYMENT)
+VR885085,C104559,TK-254063,A3018,Kunal Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR885085,C104559,TK-254564,A3016,Om Khanna,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR885150,C103617,TK-246567,A3011,Divya Jadhav,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR885150,C103617,TK-246939,A3035,Nisha Rao,Billing,1,297.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 297.0 (RETURN-QC-OK)
+VR885150,C103617,TK-247105,A3033,Thomas Reddy,Billing,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR885150,C103617,TK-248211,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR885419,C104603,TK-251085,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR885419,C104603,TK-251128,A3037,Mohammed Desai,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR885551,C107156,TK-243435,A3030,Geeta Iyer,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1460)
+VR885551,C107156,TK-243493,A3037,Mohammed Desai,Returns Desk,1,2249.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2249.0 (RETURN-QC-OK)
+VR885807,C100360,TK-251019,A3037,Mohammed Desai,Returns Desk,1,700.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 700.0 (RETURN-QC-OK)
+VR885807,C100360,TK-252200,A3014,Bhavna Joshi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR885807,C100360,TK-252202,A3026,Suresh Pereira,Voice Frontline,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (WTY-BUYBACK)
+VR885854,C103271,TK-253928,A3022,Manpreet Yadav,Email Frontline,1,6648.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6648.0 (DUP-PAYMENT)
+VR885854,C103271,TK-254534,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR886089,C108331,TK-247724,A3019,Sai Joshi,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2640)
+VR886089,C108331,TK-253955,A3044,Pranav Khanna,Escalations & Warranty,2,5999.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 5999.0 (GW-OTHER)
+VR886105,C108277,TK-249160,A3036,Divya Tiwari,Returns Desk,1,1750.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1750.0 (RETURN-QC-OK)
+VR886105,C108277,TK-251444,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR886117,C106865,TK-247753,A3019,Sai Joshi,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR886117,C106865,TK-248665,A3021,Geeta Sen,Email Frontline,1,446.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 446.0 (DOA-REPL)
+VR886117,C106865,TK-253630,A3036,Divya Tiwari,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR886390,C108437,TK-246081,A3035,Nisha Rao,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR886390,C108437,TK-250252,A3036,Divya Tiwari,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR886613,C101840,TK-244053,A3022,Manpreet Yadav,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR886613,C101840,TK-244252,A3015,Ishaan Dutta,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR886613,C101840,TK-244301,A3036,Divya Tiwari,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1190)
+VR886613,C101840,TK-244436,A3030,Geeta Iyer,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR886613,C101840,TK-244457,A3034,Meera Pereira,Billing,1,1999.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1999.0 (RETURN-QC-OK)
+VR886613,C101840,TK-252821,A3001,Reyansh Bhatt,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR886896,C107678,TK-253411,A3011,Divya Jadhav,Chat Frontline,1,6999.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6999.0 (CANCEL)
+VR886896,C107678,TK-254466,A3019,Sai Joshi,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2990)
+VR887099,C105828,TK-249365,A3028,Vivaan Pandey,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR887099,C105828,TK-249669,A3032,Kunal Jain,Billing,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR887099,C105828,TK-250728,A3020,Riya Pillai,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR887099,C105828,TK-251350,A3009,Vihaan Menon,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR887099,C105828,TK-251898,A3001,Reyansh Bhatt,Chat Frontline,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (CANCEL)
+VR887099,C105828,TK-252150,A3037,Mohammed Desai,Returns Desk,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR887678,C109092,TK-247008,A3036,Divya Tiwari,Returns Desk,1,1487.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1487.0 (DUP-PAYMENT)
+VR887678,C109092,TK-247944,A3007,Siddharth Trivedi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR888205,C106916,TK-244303,A3038,Varun Reddy,Returns Desk,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (RETURN-QC-OK)
+VR888205,C106916,TK-245535,A3012,Steven Ghosh,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR888205,C106916,TK-246007,A3030,Geeta Iyer,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR888228,C104542,TK-253950,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 960)
+VR888228,C104542,TK-253968,A3037,Mohammed Desai,Returns Desk,1,1104.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1104.0 (RETURN-QC-OK)
+VR888398,C109426,TK-240574,A3009,Vihaan Menon,Chat Frontline,1,6499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6499.0 (CANCEL)
+VR888398,C109426,TK-240709,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2790)
+VR888525,C105640,TK-249185,A3034,Meera Pereira,Billing,1,472.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 472.0 (DUP-PAYMENT)
+VR888525,C105640,TK-249577,A3026,Suresh Pereira,Voice Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR888525,C105640,TK-250049,A3033,Thomas Reddy,Billing,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (RETURN-QC-OK)
+VR888525,C105640,TK-250225,A3009,Vihaan Menon,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR888525,C105640,TK-250970,A3033,Thomas Reddy,Billing,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR888531,C103432,TK-246341,A3037,Mohammed Desai,Returns Desk,1,6998.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6998.0 (RETURN-QC-OK)
+VR888531,C103432,TK-246482,A3016,Om Khanna,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR889676,C106402,TK-243148,A3026,Suresh Pereira,Voice Frontline,1,650.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 650.0 (LOST-TRANSIT)
+VR889676,C106402,TK-243250,A3028,Vivaan Pandey,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2790)
+VR890225,C102630,TK-247699,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 430)
+VR890225,C102630,TK-248041,A3002,Megha Sheikh,Chat Frontline,1,359.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 359.0 (CANCEL)
+VR890324,C104751,TK-240646,A3028,Vivaan Pandey,Logistics,1,1899.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1899.0 (CANCEL)
+VR890324,C104751,TK-241196,A3012,Steven Ghosh,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1190)
+VR890331,C102668,TK-251535,A3038,Varun Reddy,Returns Desk,1,472.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 472.0 (RETURN-QC-OK)
+VR890331,C102668,TK-252176,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR890830,C105438,TK-247978,A3038,Varun Reddy,Returns Desk,1,446.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 446.0 (RETURN-QC-OK)
+VR890830,C105438,TK-248232,A3017,Aadhya Rao,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR890830,C105438,TK-252077,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR891012,C101608,TK-248638,A3029,Kavya Pandey,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR891012,C101608,TK-248945,A3034,Meera Pereira,Billing,1,280.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 280.0 (CANCEL)
+VR891012,C101608,TK-249260,A3007,Siddharth Trivedi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR891012,C101608,TK-251042,A3009,Vihaan Menon,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR891012,C101608,TK-252318,A3010,Aarav Pereira,Chat Frontline,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (GW-OTHER)
+VR891440,C101549,TK-245169,A3018,Kunal Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR891440,C101549,TK-245352,A3027,Harpreet Goyal,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR891440,C101549,TK-250268,A3015,Ishaan Dutta,Chat Frontline,1,1709.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1709.0 (DOA-REPL)
+VR891717,C100546,TK-250543,A3035,Nisha Rao,Billing,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR891717,C100546,TK-251132,A3037,Mohammed Desai,Returns Desk,1,350.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 350.0 (RETURN-QC-OK)
+VR891717,C100546,TK-251382,A3041,Jaspreet Desai,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR891846,C105647,TK-247199,A3004,Siddharth Kapoor,Chat Frontline,1,332.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 332.0 (CANCEL)
+VR891846,C105647,TK-248072,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR891846,C105647,TK-248344,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR892287,C106792,TK-249621,A3033,Thomas Reddy,Billing,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (DUP-PAYMENT)
+VR892287,C106792,TK-250580,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR892324,C102475,TK-244689,A3038,Varun Reddy,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1320)
+VR892324,C102475,TK-245007,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR892324,C102475,TK-245460,A3038,Varun Reddy,Returns Desk,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (RETURN-QC-OK)
+VR892560,C104218,TK-253847,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 950)
+VR892560,C104218,TK-253979,A3016,Om Khanna,Email Frontline,1,1424.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1424.0 (CANCEL)
+VR892650,C106942,TK-246667,A3033,Thomas Reddy,Billing,1,280.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 280.0 (CANCEL)
+VR892650,C106942,TK-248053,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR892836,C109499,TK-250193,A3032,Kunal Jain,Billing,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (DUP-PAYMENT)
+VR892836,C109499,TK-250715,A3004,Siddharth Kapoor,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR893398,C106048,TK-250859,A3038,Varun Reddy,Returns Desk,1,6499.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2790); Refund raised Rs 6499.0 (RETURN-QC-OK)
+VR893680,C103032,TK-251215,A3010,Aarav Pereira,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR893680,C103032,TK-251569,A3015,Ishaan Dutta,Chat Frontline,1,420.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 420.0 (RETURN-QC-OK)
+VR893680,C103032,TK-251607,A3010,Aarav Pereira,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR893680,C103032,TK-253133,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR893908,C104681,TK-248771,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR893908,C104681,TK-248865,A3002,Megha Sheikh,Chat Frontline,1,665.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 665.0 (DOA-REPL)
+VR893908,C104681,TK-248924,A3015,Ishaan Dutta,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR894406,C102846,TK-250313,A3036,Divya Tiwari,Returns Desk,1,472.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 472.0 (RETURN-QC-OK)
+VR894406,C102846,TK-252582,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR894530,C109013,TK-243153,A3033,Thomas Reddy,Billing,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (DUP-PAYMENT)
+VR894530,C109013,TK-251763,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR894590,C101587,TK-246133,A3025,Ananya Das,Voice Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR894590,C101587,TK-246793,A3037,Mohammed Desai,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR895044,C104618,TK-247446,A3029,Kavya Pandey,Logistics,1,400.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 400.0 (DOA-REPL)
+VR895044,C104618,TK-247738,A3007,Siddharth Trivedi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1320)
+VR895074,C108061,TK-247208,A3037,Mohammed Desai,Returns Desk,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (RETURN-QC-OK)
+VR895074,C108061,TK-248852,A3011,Divya Jadhav,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR895201,C103999,TK-243801,A3032,Kunal Jain,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR895201,C103999,TK-246140,A3035,Nisha Rao,Billing,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR895266,C107161,TK-242491,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1190)
+VR895266,C107161,TK-242901,A3005,Zaid Khanna,Chat Frontline,1,1899.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1899.0 (DUP-PAYMENT)
+VR895276,C109486,TK-251716,A3037,Mohammed Desai,Returns Desk,1,2974.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2974.0 (RETURN-QC-OK)
+VR895276,C109486,TK-251806,A3027,Harpreet Goyal,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR895276,C109486,TK-253444,A3008,Isha George,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR895290,C104153,TK-252007,A3007,Siddharth Trivedi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR895290,C104153,TK-253199,A3012,Steven Ghosh,Chat Frontline,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DOA-REPL)
+VR895375,C103267,TK-250968,A3027,Harpreet Goyal,Logistics,1,306.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 306.0 (DOA-REPL)
+VR895375,C103267,TK-251193,A3031,Zoya Menon,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR895375,C103267,TK-251573,A3024,Suresh Sethi,Voice Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR895375,C103267,TK-253206,A3009,Vihaan Menon,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR895474,C105825,TK-248318,A3024,Suresh Sethi,Voice Frontline,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (DUP-PAYMENT)
+VR895474,C105825,TK-251557,A3004,Siddharth Kapoor,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR895681,C108296,TK-245019,A3038,Varun Reddy,Returns Desk,1,975.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2790); Refund raised Rs 975.0 (RETURN-QC-OK)
+VR895991,C101566,TK-248249,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR895991,C101566,TK-248734,A3038,Varun Reddy,Returns Desk,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (RETURN-QC-OK)
+VR895991,C101566,TK-251281,A3020,Riya Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR895991,C101566,TK-253277,A3022,Manpreet Yadav,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR896165,C101223,TK-241961,A3038,Varun Reddy,Returns Desk,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (RETURN-QC-OK)
+VR896165,C101223,TK-242338,A3004,Siddharth Kapoor,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1320)
+VR896165,C101223,TK-242356,A3020,Riya Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR896165,C101223,TK-242708,A3017,Aadhya Rao,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR896350,C100652,TK-244798,A3018,Kunal Pillai,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1190)
+VR896350,C100652,TK-247471,A3034,Meera Pereira,Billing,1,1799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1799.0 (DUP-PAYMENT)
+VR896418,C102861,TK-242025,A3034,Meera Pereira,Billing,1,1234.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1234.0 (PRICE-ADJ)
+VR896418,C102861,TK-242408,A3009,Vihaan Menon,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 880)
+VR896418,C102861,TK-244220,A3025,Ananya Das,Voice Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR896773,C105709,TK-248245,A3029,Kavya Pandey,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1460)
+VR896773,C105709,TK-249164,A3010,Aarav Pereira,Chat Frontline,1,1999.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1999.0 (RETURN-QC-OK)
+VR896901,C108372,TK-246252,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR896901,C108372,TK-246747,A3037,Mohammed Desai,Returns Desk,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (RETURN-QC-OK)
+VR896904,C104656,TK-251061,A3031,Zoya Menon,Logistics,1,560.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 560.0 (RETURN-QC-OK)
+VR896904,C104656,TK-252354,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR896904,C104656,TK-253038,A3009,Vihaan Menon,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR897042,C109397,TK-247764,A3033,Thomas Reddy,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR897042,C109397,TK-248628,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR897597,C100563,TK-254179,A3033,Thomas Reddy,Billing,1,6998.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6998.0 (CANCEL)
+VR897597,C100563,TK-254412,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR897636,C108707,TK-245713,A3037,Mohammed Desai,Returns Desk,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (RETURN-QC-OK)
+VR897636,C108707,TK-246756,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1320)
+VR897969,C103114,TK-240310,A3027,Harpreet Goyal,Logistics,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (DOA-REPL)
+VR897969,C103114,TK-252244,A3008,Isha George,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR897969,C103114,TK-253684,A3019,Sai Joshi,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1460)
+VR898068,C103890,TK-249280,A3038,Varun Reddy,Returns Desk,1,1750.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1750.0 (RETURN-QC-OK)
+VR898068,C103890,TK-249921,A3009,Vihaan Menon,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR898497,C101530,TK-249126,A3006,Kavya Pandey,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR898497,C101530,TK-249242,A3035,Nisha Rao,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR898807,C100233,TK-252919,A3029,Kavya Pandey,Logistics,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (CANCEL)
+VR898807,C100233,TK-253106,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR898807,C100233,TK-253121,A3032,Kunal Jain,Billing,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR899279,C104698,TK-251109,A3017,Aadhya Rao,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR899279,C104698,TK-251783,A3037,Mohammed Desai,Returns Desk,1,630.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 630.0 (RETURN-QC-OK)
+VR899421,C101442,TK-241366,A3001,Reyansh Bhatt,Chat Frontline,1,5199.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 5199.0 (CANCEL)
+VR899421,C101442,TK-241494,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2790)
+VR899421,C101442,TK-241515,A3005,Zaid Khanna,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR899421,C101442,TK-241910,A3016,Om Khanna,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR899565,C101833,TK-244129,A3018,Kunal Pillai,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR899565,C101833,TK-244374,A3009,Vihaan Menon,Chat Frontline,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (RETURN-QC-OK)
+VR899565,C101833,TK-244478,A3025,Ananya Das,Voice Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR899651,C104606,TK-250608,A3036,Divya Tiwari,Returns Desk,1,1400.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1400.0 (RETURN-QC-OK)
+VR899651,C104606,TK-251858,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR899651,C104606,TK-252253,A3011,Divya Jadhav,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR900106,C108073,TK-253962,A3038,Varun Reddy,Returns Desk,1,1400.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1400.0 (RETURN-QC-OK)
+VR900106,C108073,TK-254057,A3018,Kunal Pillai,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2990)
+VR900106,C108073,TK-254222,A3017,Aadhya Rao,Email Frontline,1,6999.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6999.0 (WTY-BUYBACK)
+VR900281,C109144,TK-244392,A3034,Meera Pereira,Billing,1,216.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 216.0 (DUP-PAYMENT)
+VR900281,C109144,TK-253341,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR900302,C105606,TK-241303,A3027,Harpreet Goyal,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 950)
+VR900302,C105606,TK-245105,A3038,Varun Reddy,Returns Desk,1,1499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1499.0 (RETURN-QC-OK)
+VR900302,C105606,TK-245925,A3028,Vivaan Pandey,Logistics,1,1499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1499.0 (DUP-PAYMENT)
+VR900521,C107508,TK-249592,A3008,Isha George,Chat Frontline,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (CANCEL)
+VR900521,C107508,TK-252117,A3021,Geeta Sen,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR901821,C104842,TK-247997,A3035,Nisha Rao,Billing,1,4999.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 4999.0 (DOA-REPL)
+VR901821,C104842,TK-253403,A3022,Manpreet Yadav,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR901821,C104842,TK-254329,A3038,Varun Reddy,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2440)
+VR902345,C100882,TK-244782,A3024,Suresh Sethi,Voice Frontline,1,1169.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1169.0 (CANCEL)
+VR902345,C100882,TK-244906,A3030,Geeta Iyer,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 880)
+VR902617,C101636,TK-244364,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR902617,C101636,TK-244532,A3032,Kunal Jain,Billing,1,1799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1799.0 (DUP-PAYMENT)
+VR902725,C106728,TK-248377,A3017,Aadhya Rao,Email Frontline,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR902725,C106728,TK-250403,A3004,Siddharth Kapoor,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR902807,C104892,TK-247581,A3033,Thomas Reddy,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR902807,C104892,TK-253140,A3006,Kavya Pandey,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR902836,C105159,TK-248131,A3029,Kavya Pandey,Logistics,1,700.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 700.0 (LOST-TRANSIT)
+VR902836,C105159,TK-248833,A3037,Mohammed Desai,Returns Desk,1,1750.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1750.0 (RETURN-QC-OK)
+VR902836,C105159,TK-248938,A3041,Jaspreet Desai,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR903292,C105489,TK-246976,A3034,Meera Pereira,Billing,1,2799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2799.0 (DUP-PAYMENT)
+VR903292,C105489,TK-247035,A3034,Meera Pereira,Billing,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR903355,C101623,TK-246493,A3029,Kavya Pandey,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1190)
+VR903355,C101623,TK-246561,A3027,Harpreet Goyal,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR903355,C101623,TK-249489,A3038,Varun Reddy,Returns Desk,1,340.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 340.0 (RETURN-QC-OK)
+VR903810,C108074,TK-249055,A3008,Isha George,Chat Frontline,1,350.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 350.0 (CANCEL)
+VR903810,C108074,TK-250748,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR903810,C108074,TK-251173,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904065,C104894,TK-245295,A3021,Geeta Sen,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR904065,C104894,TK-245456,A3038,Varun Reddy,Returns Desk,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (RETURN-QC-OK)
+VR904065,C104894,TK-245499,A3028,Vivaan Pandey,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904124,C105274,TK-244004,A3030,Geeta Iyer,Logistics,1,315.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820); Refund raised Rs 315.0 (RETURN-QC-OK)
+VR904124,C105274,TK-244143,A3012,Steven Ghosh,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904124,C105274,TK-244523,A3008,Isha George,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR904274,C100548,TK-245045,A3002,Megha Sheikh,Chat Frontline,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (DUP-PAYMENT)
+VR904274,C100548,TK-245370,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1320)
+VR904630,C102762,TK-245765,A3015,Ishaan Dutta,Chat Frontline,1,2974.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2974.0 (CANCEL)
+VR904630,C102762,TK-246073,A3037,Mohammed Desai,Returns Desk,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR904630,C102762,TK-246350,A3006,Kavya Pandey,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904673,C105805,TK-244244,A3037,Mohammed Desai,Returns Desk,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (RETURN-QC-OK)
+VR904673,C105805,TK-252315,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904752,C102217,TK-249058,A3037,Mohammed Desai,Returns Desk,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (RETURN-QC-OK)
+VR904752,C102217,TK-249506,A3031,Zoya Menon,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR904752,C102217,TK-249642,A3037,Mohammed Desai,Returns Desk,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR904752,C102217,TK-250552,A3041,Jaspreet Desai,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904872,C103288,TK-248359,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904872,C103288,TK-248371,A3034,Meera Pereira,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR904872,C103288,TK-249975,A3042,Sneha Sethi,Escalations & Warranty,2,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR904980,C102234,TK-247135,A3031,Zoya Menon,Logistics,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR904980,C102234,TK-248045,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR904980,C102234,TK-251189,A3014,Bhavna Joshi,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR905070,C106442,TK-244326,A3027,Harpreet Goyal,Logistics,1,4249.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 4249.0 (LOST-TRANSIT)
+VR905070,C106442,TK-248476,A3017,Aadhya Rao,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2240)
+VR905171,C100880,TK-246752,A3027,Harpreet Goyal,Logistics,1,1574.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1574.0 (DOA-REPL)
+VR905171,C100880,TK-247744,A3007,Siddharth Trivedi,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR905316,C106245,TK-242394,A3032,Kunal Jain,Billing,1,1169.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1169.0 (DUP-PAYMENT)
+VR905316,C106245,TK-242676,A3003,Deepak Saxena,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 880)
+VR905912,C100305,TK-249609,A3035,Nisha Rao,Billing,1,2499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2499.0 (DUP-PAYMENT)
+VR905912,C100305,TK-249892,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1460)
+VR906144,C100614,TK-247366,A3030,Geeta Iyer,Logistics,1,315.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 315.0 (LOST-TRANSIT)
+VR906144,C100614,TK-250662,A3020,Riya Pillai,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR906272,C104097,TK-250814,A3031,Zoya Menon,Logistics,1,1349.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1349.0 (DOA-REPL)
+VR906272,C104097,TK-251110,A3027,Harpreet Goyal,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 950)
+VR906730,C103113,TK-251836,A3033,Thomas Reddy,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (PRICE-ADJ)
+VR906730,C103113,TK-251977,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR906730,C103113,TK-252441,A3020,Riya Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR906888,C100833,TK-246148,A3038,Varun Reddy,Returns Desk,1,2974.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 2974.0 (RETURN-QC-OK)
+VR906888,C100833,TK-252256,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR907020,C108274,TK-242536,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR907020,C108274,TK-242540,A3017,Aadhya Rao,Email Frontline,1,1709.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1709.0 (CANCEL)
+VR907480,C108094,TK-243334,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR907480,C108094,TK-243454,A3017,Aadhya Rao,Email Frontline,1,270.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 270.0 (DUP-PAYMENT)
+VR907639,C108576,TK-250214,A3034,Meera Pereira,Billing,1,10198.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 10198.0 (CANCEL)
+VR907639,C108576,TK-252020,A3021,Geeta Sen,Email Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 2640)
+VR907658,C101893,TK-249339,A3003,Deepak Saxena,Chat Frontline,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (PRICE-ADJ)
+VR907658,C101893,TK-250045,A3004,Siddharth Kapoor,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR907742,C106841,TK-244395,A3036,Divya Tiwari,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR907742,C106841,TK-244665,A3038,Varun Reddy,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR908184,C107452,TK-246424,A3027,Harpreet Goyal,Logistics,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR908184,C107452,TK-246629,A3038,Varun Reddy,Returns Desk,1,1799.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1799.0 (RETURN-QC-OK)
+VR908184,C107452,TK-247468,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1100)
+VR908184,C107452,TK-248744,A3011,Divya Jadhav,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR908292,C100975,TK-249563,A3037,Mohammed Desai,Returns Desk,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR908292,C100975,TK-249958,A3035,Nisha Rao,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR908292,C100975,TK-251937,A3039,Sameer Ghosh,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR908567,C105745,TK-247143,A3030,Geeta Iyer,Logistics,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (LOST-TRANSIT)
+VR908567,C105745,TK-247664,A3005,Zaid Khanna,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR908567,C105745,TK-249247,A3009,Vihaan Menon,Chat Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR908813,C109070,TK-249735,A3038,Varun Reddy,Returns Desk,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (RETURN-QC-OK)
+VR908813,C109070,TK-249766,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR909216,C107807,TK-248721,A3021,Geeta Sen,Email Frontline,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (CANCEL)
+VR909216,C107807,TK-250229,A3044,Pranav Khanna,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR909760,C106889,TK-249688,A3037,Mohammed Desai,Returns Desk,1,1400.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1400.0 (RETURN-QC-OK)
+VR909760,C106889,TK-249937,A3031,Zoya Menon,Logistics,1,6998.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 6998.0 (LOST-TRANSIT)
+VR909760,C106889,TK-251973,A3010,Aarav Pereira,Chat Frontline,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR909802,C100575,TK-249733,A3033,Thomas Reddy,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR909802,C100575,TK-250628,A3040,Tarun Fernandes,Escalations & Warranty,2,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR909802,C100575,TK-250708,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR910051,C108050,TK-249209,A3032,Kunal Jain,Billing,1,3324.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3324.0 (DUP-PAYMENT)
+VR910051,C108050,TK-249277,A3018,Kunal Pillai,Email Frontline,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR910051,C108050,TK-252906,A3037,Mohammed Desai,Returns Desk,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR910070,C103112,TK-247674,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR910070,C103112,TK-247720,A3033,Thomas Reddy,Billing,1,3499.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3499.0 (DUP-PAYMENT)
+VR910070,C103112,TK-248011,A3037,Mohammed Desai,Returns Desk,1,0.0,N,Double-Dipped Order (Dual Refund + Replacement),
+VR910147,C103208,TK-248009,A3025,Ananya Das,Voice Frontline,1,1330.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 1330.0 (DUP-PAYMENT)
+VR910147,C103208,TK-248901,A3041,Jaspreet Desai,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR910299,C107154,TK-249622,A3031,Zoya Menon,Logistics,1,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)
+VR910299,C107154,TK-250912,A3036,Divya Tiwari,Returns Desk,1,3149.0,N,Double-Dipped Order (Dual Refund + Replacement),Refund raised Rs 3149.0 (RETURN-QC-OK)
+VR910299,C107154,TK-251647,A3043,Kabir Varghese,Escalations & Warranty,2,0.0,Y,Double-Dipped Order (Dual Refund + Replacement),Replacement issued (policy cost Rs 1820)

@@ -1,0 +1,39 @@
+agent_id,agent_name,team,tier,sampled_ticket_count,agent_handling_signal_count,product_issue_count,policy_signal_count,queue_case_mix_count,unclear_count,strong_agent_signal_count,moderate_agent_signal_count
+A3042,Sneha Sethi,Escalations & Warranty,2,8,0,7,0,0,1,0,0
+A3006,Kavya Pandey,Chat Frontline,1,6,0,2,1,0,1,0,2
+A3043,Kabir Varghese,Escalations & Warranty,2,6,0,6,0,0,0,0,0
+A3041,Jaspreet Desai,Escalations & Warranty,2,6,0,5,1,0,0,0,0
+A3024,Suresh Sethi,Voice Frontline,1,6,0,0,1,0,3,0,0
+A3036,Divya Tiwari,Returns Desk,1,5,0,0,2,0,0,0,0
+A3040,Tarun Fernandes,Escalations & Warranty,2,5,0,4,1,0,0,0,2
+A3005,Zaid Khanna,Chat Frontline,1,4,0,2,1,0,1,0,1
+A3016,Om Khanna,Email Frontline,1,4,0,0,0,0,3,0,0
+A3008,Isha George,Chat Frontline,1,3,0,0,1,0,1,0,0
+A3029,Kavya Pandey,Logistics,1,3,0,0,0,0,0,0,0
+A3039,Sameer Ghosh,Escalations & Warranty,2,3,0,2,0,0,1,0,0
+A3004,Siddharth Kapoor,Chat Frontline,1,3,0,1,1,0,0,0,1
+A3019,Sai Joshi,Email Frontline,1,3,0,0,1,0,1,0,0
+A3014,Bhavna Joshi,Chat Frontline,1,3,0,0,1,0,0,0,0
+A3007,Siddharth Trivedi,Chat Frontline,1,2,0,1,0,0,0,0,0
+A3044,Pranav Khanna,Escalations & Warranty,2,2,0,1,0,0,0,0,1
+A3018,Kunal Pillai,Email Frontline,1,2,0,1,0,0,1,0,0
+A3015,Ishaan Dutta,Chat Frontline,1,2,0,2,0,0,0,0,0
+A3021,Geeta Sen,Email Frontline,1,2,0,0,0,0,2,0,0
+A3009,Vihaan Menon,Chat Frontline,1,2,0,1,0,0,1,0,1
+A3013,Sukhwinder Rao,Chat Frontline,1,2,0,0,0,0,1,0,0
+A3031,Zoya Menon,Logistics,1,2,0,0,1,0,0,0,0
+A3037,Mohammed Desai,Returns Desk,1,2,0,0,1,0,0,0,0
+A3003,Deepak Saxena,Chat Frontline,1,1,0,0,0,0,1,0,0
+A3017,Aadhya Rao,Email Frontline,1,1,0,0,0,0,1,0,0
+A3010,Aarav Pereira,Chat Frontline,1,1,0,0,0,0,1,0,0
+A3012,Steven Ghosh,Chat Frontline,1,1,0,0,0,0,0,0,0
+A3011,Divya Jadhav,Chat Frontline,1,1,0,0,0,0,0,0,0
+A3020,Riya Pillai,Email Frontline,1,1,0,1,0,0,0,0,0
+A3026,Suresh Pereira,Voice Frontline,1,1,0,1,0,0,0,0,0
+A3025,Ananya Das,Voice Frontline,1,1,0,0,0,0,0,0,0
+A3033,Thomas Reddy,Billing,1,1,0,0,1,0,0,0,0
+A3030,Geeta Iyer,Logistics,1,1,0,0,0,0,0,0,0
+A3027,Harpreet Goyal,Logistics,1,1,0,0,0,0,0,0,0
+A3032,Kunal Jain,Billing,1,1,0,0,1,0,0,0,0
+A3028,Vivaan Pandey,Logistics,1,1,0,1,0,0,0,0,0
+A3038,Varun Reddy,Returns Desk,1,1,0,0,0,0,0,0,0

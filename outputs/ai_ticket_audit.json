@@ -1,0 +1,1002 @@
+{
+  "TK-250628": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-247199": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-247135": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-244301": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-247699": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-251573": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-249126": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-249055": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-254466": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-243153": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-247664": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-250193": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-252200": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-251382": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-247008": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "clear",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Ticket belongs to an order that received both a refund and a replacement under Policy Section 5."
+  },
+  "TK-246029": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-247610": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-249965": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-253156": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-252264": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-253818": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-252058": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-240161": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-249315": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-254195": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-241415": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-252666": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-243725": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-245824": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-249953": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-252752": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-241924": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-248058": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-251505": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-253976": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-250837": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-248458": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-252783": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-242535": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-252425": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-249380": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-241731": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-253376": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-248029": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-247791": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-250635": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-248056": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-240837": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-249429": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-245365": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-242175": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-242211": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-243948": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-241161": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-250895": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-246206": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-248178": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-249847": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-246102": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-243090": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-254470": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-252657": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-251682": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-247465": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-251370": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-241686": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-251103": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-251374": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-250250": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-248722": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "moderate",
+    "resolution_quality": "partially_appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-242312": {
+    "primary_root_cause": "product_or_hardware",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer reported physical device malfunction or dead hardware."
+  },
+  "TK-248703": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-244351": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "negative",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-250982": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-244599": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-254162": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-243173": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-253749": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-240193": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-246492": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-251349": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-243356": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-244430": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-253380": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-244245": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-247476": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-242705": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-241982": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-246730": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-248986": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-243944": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-250874": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-248918": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-246698": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-241497": {
+    "primary_root_cause": "customer_or_external",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "high",
+    "evidence": "Customer inquiry regarding delayed 3PL courier transit or delivery tracking."
+  },
+  "TK-253315": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-244474": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-244911": {
+    "primary_root_cause": "policy_or_process",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "sufficient",
+    "confidence": "medium",
+    "evidence": "Customer requested order cancellation or refund for payment/accidental order."
+  },
+  "TK-244262": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  },
+  "TK-245351": {
+    "primary_root_cause": "unclear",
+    "agent_handling_signal": "none",
+    "resolution_quality": "appropriate",
+    "customer_sentiment": "neutral",
+    "policy_signal": "none",
+    "evidence_quality": "limited",
+    "confidence": "medium",
+    "evidence": "General informational inquiry handled under standard procedure."
+  }
+}

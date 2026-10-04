@@ -1,0 +1,85 @@
+You are a Lead Quality Assurance and Support Operations Auditor for Vireo Audio.
+Analyze the following customer support ticket interaction to determine:
+"Why does this interaction appear problematic or dissatisfied?"
+
+Do NOT judge the agent as a person or decide whether they are "good" or "bad".
+Rely STRICTLY and ONLY on the provided text evidence. Do NOT invent assumptions or facts not present in the text.
+If evidence is insufficient to reach a firm conclusion, classify the category as "unclear" with "low" confidence.
+
+TICKET METADATA:
+- Ticket ID: {ticket_id}
+- Channel: {channel}
+- Priority: {priority}
+- Logged Category: {category}
+- CSAT Score: {csat_score}
+- Replacement Issued: {replacement_issued}
+- Refund Amount INR: {refund_amount_inr}
+- Stratum: {stratum}
+
+CUSTOMER MESSAGE:
+"""
+{customer_message}
+"""
+
+AGENT CLOSING NOTES:
+"""
+{agent_notes}
+"""
+
+CLASSIFICATION CRITERIA:
+1. primary_root_cause:
+   - "agent_handling": Clear evidence of poor communication, dismissive tone, ignoring questions, or process delay caused by the agent.
+   - "product_or_hardware": The issue is clearly a physical device defect, battery failure, audio distortion, or dead-on-arrival hardware.
+   - "policy_or_process": Customer frustration is driven by company policy limits (e.g. 7-day DOA window, warranty proof requirements, return pickup delay).
+   - "queue_or_case_mix": Delayed response caused by queue backlog, transfer hand-offs, or routing.
+   - "customer_or_external": Third-party delivery partner delay, user error, accidental purchase, or unquoted details.
+   - "unclear": Insufficient evidence to pinpoint root cause.
+
+2. agent_handling_signal:
+   - "none": Agent followed appropriate troubleshooting/procedure; no evidence of handling deficiency.
+   - "weak": Minor brevity in notes or slight delay, but within acceptable limits.
+   - "moderate": Terse unhelpful boilerplate, incomplete documentation, or customer had to repeat themselves.
+   - "strong": Clear dismissiveness, incorrect advice, policy violation, or unaddressed customer question.
+
+3. resolution_quality:
+   - "appropriate": Action taken directly matched the reported issue under standard policy.
+   - "partially_appropriate": Query answered but customer issue not fully resolved, or required follow-up.
+   - "inappropriate": Incorrect action, wrong SOP applied, or closed without diagnosis.
+   - "unclear": Notes too brief to evaluate resolution accuracy.
+
+4. customer_sentiment:
+   - "negative": Customer expressed overt frustration, anger, or repeated complaints.
+   - "neutral": Matter-of-fact inquiry or transactional tone.
+   - "positive": Customer expressed satisfaction or gratitude.
+   - "unclear": Tone cannot be determined from short transcript.
+
+5. policy_signal:
+   - "none": No policy breach or exception detected.
+   - "possible": Dual resolution suspected, or Tier 1 approval of warranty replacement without clear RMA.
+   - "clear": Documented policy violation (e.g., duplicate refund on replaced order).
+
+6. evidence_quality:
+   - "sufficient": Message and notes provide clear diagnostic detail.
+   - "limited": Short notes or transcript with partial context.
+   - "insufficient": Failed IVR transcript, dropped line, or single-word message/note.
+
+7. confidence:
+   - "high": Clear textual proof supporting all classifications.
+   - "medium": Probable inference based on context.
+   - "low": High ambiguity or missing details.
+
+8. evidence:
+   - Concise factual statement (1-2 sentences) citing ONLY text from customer message or agent notes.
+
+OUTPUT FORMAT:
+Respond STRICTLY with a valid JSON object matching this schema. Do NOT include markdown code blocks, prefixes, or commentary:
+{{
+  "primary_root_cause": "agent_handling" | "product_or_hardware" | "policy_or_process" | "queue_or_case_mix" | "customer_or_external" | "unclear",
+  "agent_handling_signal": "none" | "weak" | "moderate" | "strong",
+  "resolution_quality": "appropriate" | "partially_appropriate" | "inappropriate" | "unclear",
+  "customer_sentiment": "negative" | "neutral" | "positive" | "unclear",
+  "policy_signal": "none" | "possible" | "clear",
+  "evidence_quality": "sufficient" | "limited" | "insufficient",
+  "confidence": "low" | "medium" | "high",
+  "evidence": "Short factual explanation citing text only"
+}}

@@ -1,0 +1,7 @@
+peer_group,agent_count,ticket_count,csat_response_count,peer_mean_csat,peer_median_csat,peer_std_csat,peer_sla_breach_rate,peer_mean_audited_handle_time_hours,peer_median_audited_handle_time_hours
+Chat Frontline,15,3474,1511,3.4348,4.0,1.1286,0.0915,4.28,0.38
+Email Frontline,7,1670,727,3.6011,4.0,0.9695,0.1126,6.79,0.37
+Escalations & Warranty,6,1304,584,2.5788,3.0,1.148,0.0867,130.69,120.87
+Logistics,5,1907,885,3.2249,3.0,0.9597,0.0881,40.45,24.43
+Returns & Billing,7,2598,1149,3.3934,3.0,1.0018,0.0943,17.58,0.45
+Voice Frontline,4,797,340,3.5824,4.0,1.0084,0.0402,3.43,0.35

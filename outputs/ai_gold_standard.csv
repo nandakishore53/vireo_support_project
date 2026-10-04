@@ -1,0 +1,63 @@
+ticket_id,stratum,category,channel,customer_message,agent_notes,primary_root_cause,agent_handling_signal,resolution_quality,policy_signal,evidence_quality,human_rationale
+TK-250628,Double-Dipped Order,Warranty & Repair,email,"what is the status of my warranty claaim
+vr909802
+please help",cx ok (sop 2.7),policy_or_process,weak,partially_appropriate,clear,limited,Dual refund/replacement order. Customer followed up on warranty claim; agent closing note 'cx ok' is terse.
+TK-247199,Double-Dipped Order,Other,chat,"This is very disappointing. Ordered pulse 2 buds in December. my son ordered tihs without asking, pls reverse. I already tried cancel button, greyed out. This is the last time I buy from u.",Cx says cancellation request. Checked shipment status. Refunded Rs 332. [closed],policy_or_process,none,appropriate,clear,sufficient,Order cancellation after son accidentally ordered; refund issued on order that also had replacement.
+TK-247135,Double-Dipped Order,Delivery & Shipping,chat,"dear sir/madam,
+
+i am writing with reference to my order of my pulse 2 (vr904980) placed on 12 dec.  got a different colour than ordered. i have rechecked my order. i request you to kindly arrange a replacement.
+
+yours faithfully,
+tanvi rao","re: incorrect product shipped | verified ord vs delivered item photos -> refund issued, cx did not want rplc",product_or_hardware,none,appropriate,clear,sufficient,Incorrect color shipped by warehouse. Refund issued as customer declined replacement.
+TK-244301,Double-Dipped Order,Returns & Refunds,email,"dear sir/madam,
+
+i am writing with reference to my order of the fit band (vr886613) placed on 06-09-2025.  wrong product delivered. i have checked the invoice. i request you to look into this matter at the earliest.
+
+yours faithfully,
+harsh sheikh","issue: wong item delivered | raised wiht warehouse -> rplc approved, reverse pickup arranged",product_or_hardware,none,appropriate,clear,sufficient,Wrong product delivered. Replacement approved and reverse pickup arranged.
+TK-247699,Double-Dipped Order,Returns & Refunds,email,"hi team,
+usb-c cable puurchased last month, order vr890225. the app said pickup today, that was on 24-12-2025.
+waiting for your reply.
+thank you zoya naidu",-,customer_or_external,moderate,unclear,clear,limited,Reverse pickup delay by courier partner; agent note is completely blank ('-').
+TK-246029,Long Escalation,Warranty & Repair,chat,"Hey, Ordered my Pulse last week. Service centre took it, now silence. I called service centre. Nothing changed. Waiting for your reply.","1. repair status follow-up
+2. checked rma status
+3. repair completed, shipped back //SNE",queue_or_case_mix,none,appropriate,none,sufficient,Multi-day bench testing at service centre. Agent documented structured 3-step RMA status.
+TK-247610,Long Escalation,Warranty & Repair,chat,"hey
+warranty claim pending for 15 days
+anyone there","re: repair status follow-up | followed up with service centre -> repair completed, shipped back",queue_or_case_mix,none,appropriate,none,sufficient,Warranty claim pending 15 days at service centre. Handled appropriately upon customer check-in.
+TK-249965,Long Escalation,Warranty & Repair,chat,"PRODUCT: MY NEXA 2 WATCH
+ORDER: VR896230
+PURCHASED: 14/01
+ISSUE: NO UPDATE ON MY REPAIR
+TRIED: EMAILED TWICE
+EXPECTED: FIX","cx: rma status query | checked qc report -> cx updated, eta shared",queue_or_case_mix,none,appropriate,none,sufficient,Customer frustrated by multi-day repair duration (CSAT 2.0). Agent checked QC report and shared ETA.
+TK-253156,Long Escalation,Warranty & Repair,social,"claim number RMA61104, anyone alive there?
+please advise",csutomer reached out - repair status follow-up. checked qc report. new unit shipped under doa. (sop 2.7) [closed],product_or_hardware,none,appropriate,none,sufficient,Hardware claim RMA61104; new replacement unit shipped under DOA policy.
+TK-252264,Long Escalation,Warranty & Repair,chat,"Hi, Bought the Pulse 2 earbuds arund 02 Feb from Amazon. No update on my repair. I called service centre. Nothing changed. Honestly regretting this purchase. I want my money back. Regards, Ishaan",see prev -TF,queue_or_case_mix,moderate,partially_appropriate,none,limited,Service centre repair delay. Agent closed with unhelpful note 'see prev -TF'.
+TK-252752,Low CSAT (<= 2),Delivery & Shipping,email,Not what I expected from Vireo. Got the Pulse buds from Amazon recently. there's a dent on the case straight out of the box. I already refused nothing as I didn't notice till later. This is the last time I buy from you.,"Ticket raised for unit rcvd damaged. Checked w/ courier for damage claim. Replacement approved, reverse pickup arranged.",customer_or_external,none,appropriate,none,sufficient,Dent on case straight out of box (courier transit damage). Replacement approved with reverse pickup.
+TK-241924,Low CSAT (<= 2),Delivery & Shipping,chat,I haven't received my order - pls advise,Ticket raised for delivery delayed. Raised ticket with courier partner. Re-shipped from warehouse.,customer_or_external,none,appropriate,none,sufficient,Shipment delayed by courier partner. Agent raised ticket with carrier and re-shipped item.
+TK-248058,Low CSAT (<= 2),Warranty & Repair,chat,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of pulse 2 buds (VR883415) placed on 21 Dec. The L bud is basically a paperweight now, R is fine. I have removed and reinserted it 10 times. I request you to process a refund to my original payment method.
+
+Regards,
+Isha Gupta",cx ok -TF,product_or_hardware,moderate,partially_appropriate,none,limited,Left bud dead on Pulse 2 (battery defect). Agent closed with terse note 'cx ok -TF' without documenting resolution.
+TK-251505,Low CSAT (<= 2),Returns & Refunds,chat,"Namaste, Bought Pulse2 around 13-12-2025 from Flipkart. App shows the left at 0 percent no matter how long its in the case. I did the reset from the manual. Kindly look into it. Thanks, Rahul Sharma",as discussed -PK,product_or_hardware,moderate,partially_appropriate,none,limited,Left bud stuck at 0 percent (Pulse 2 battery defect). Agent notes terse 'as discussed -PK'.
+TK-253976,Low CSAT (<= 2),Charging & Battery,voice,[IVR transcript] hello ji the left one is dead every morning even though it was in the case all night please jaldi pulse 2 buds,"Replacement approved, reverse pkp arranged. Issue: no audio one side. Asked cx to check bud in case.",product_or_hardware,none,appropriate,none,sufficient,Left earbud dead every morning (Pulse 2 battery defect). Replacement approved with reverse pickup.
+TK-242312,Category Other,Other,email,BLUETOOTH KEEPS CUTTING OUT,reported: connection dropping. checked fw 2.8.10. replacement unit dispatched. will monitor.,product_or_hardware,none,appropriate,none,sufficient,Bluetooth keeps cutting out. Category was misclassified as 'Other'; agent tested firmware and dispatched replacement.
+TK-248703,Category Other,Other,email,"bhai
+my son ordered thsi without asking, please reverse
+itna paias diya hai
+nxea watch vr904734
+anyone there",-,policy_or_process,moderate,unclear,none,insufficient,Son accidentally ordered Nexa watch; agent notes are completely empty ('-').
+TK-244351,Category Other,Other,chat,"Product: my Arc
+Order: VR891435
+Purchased: 19/09
+Issue: my son ordered this without asking, please reverse
+Tried: tried cancel button, greyed out
+Expected: fix","Cx says ord cancellation. chk shipment status. Already shipped, adv RTO/return. [closed]",policy_or_process,none,appropriate,none,sufficient,Cancellation requested after dispatch; agent correctly advised RTO return policy.
+TK-250982,Category Other,Other,email,"Got the Pulse 2 earbuds from vireo.in 10 days ago.  Service centre took it, now silence. I emailed twice. Nothing changed. Need this sorted this week. Regards,","customer reached out - repair status follow-up. checked qc report. repair completed, shipped back. cx informed. (sop 2.7)",queue_or_case_mix,none,appropriate,none,sufficient,Service centre repair follow-up miscategorized as 'Other'; agent checked QC and confirmed return shipment.
+TK-244599,Category Other,Other,social,"namaste,
+got my nexa fit band from vireo.in 10 days ago. it has been 21 days and i have nothing in hand.
+how do i get this fixed?
+thanks & regards,",re-shipped from warehouse,customer_or_external,none,appropriate,none,sufficient,Fit band undelivered after 21 days; agent re-shipped from warehouse.
